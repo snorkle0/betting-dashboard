@@ -10,7 +10,6 @@
     "test": "vitest run",
     "generate:routes": "tsr generate",
     "prettier": "prettier src --check",
-    "prettier:fix": "npm run prettier -- --write",
     "format": "pnpm run prettier -- --write"
   },
   "dependencies": {
@@ -38,6 +37,7 @@
     "@tanstack/react-query-devtools": "^5.74.11",
     "@tanstack/router-cli": "^1.117.1",
     "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^22.15.3",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.3.4",
