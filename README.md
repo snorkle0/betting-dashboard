@@ -2,6 +2,8 @@
 
 A responsive, interactive betting dashboard built with React, TypeScript, and Material UI. This application simulates a betting platform with mock API interactions.
 
+**Note:** This application is currently configured to run locally only. It relies on Mock Service Worker for API simulation, which is not enabled in production builds by default. A real backend integration would be required for deployment.
+
 ## Features
 
 - **Responsive Grid Layout**: Displays betting cards in a responsive grid that adapts to different screen sizes
