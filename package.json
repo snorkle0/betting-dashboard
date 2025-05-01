@@ -1,0 +1,57 @@
+{
+  "name": "betting-dashboard",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "start": "vite --port 3000",
+    "build": "vite build && tsc",
+    "serve": "vite preview",
+    "test": "vitest run",
+    "generate:routes": "tsr generate",
+    "prettier": "prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "pnpm run prettier -- --write"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.2.5",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "@reduxjs/toolkit": "^2.7.0",
+    "@tanstack/eslint-plugin-query": "^5.74.7",
+    "@tanstack/react-query": "^5.74.11",
+    "@tanstack/react-router": "^1.114.3",
+    "@tanstack/react-router-devtools": "^1.114.3",
+    "@tanstack/router-plugin": "^1.114.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-helmet-async": "^2.0.5",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@faker-js/faker": "^9.7.0",
+    "@tanstack/eslint-plugin-query": "^5.74.7",
+    "@tanstack/eslint-plugin-router": "^1.115.0",
+    "@tanstack/react-query-devtools": "^5.74.11",
+    "@tanstack/router-cli": "^1.117.1",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react": "^7.37.5",
+    "msw": "^2.7.5",
+    "prettier": "3.5.3",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.31.1",
+    "vite": "^6.1.0"
+  },
+  "msw": {
+    "workerDirectory": [
+      "public"
+    ]
+  }
+}

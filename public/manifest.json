@@ -1,0 +1,8 @@
+{
+  "name": "Betting Dashboard App",
+  "short_name": "Betting Dashboard",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#000000"
+}
